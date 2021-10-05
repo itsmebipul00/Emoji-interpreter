@@ -8,7 +8,11 @@ const emojiDictionary = {
   "😔": "sad",
   "🥡": "takeout box",
   "❤️": "love",
-  "😑": "annoyance" 
+  "😑": "annoyance",
+  "🙏": "thank you",
+  "👀": "sneaky",
+  "✌": "peace",
+  "😈": "devil",
 };
 
 
@@ -34,7 +38,7 @@ export default function App() {
   }
 
   return (
-    <div>
+    <div className="App">
       <header>
         <div className="container">
           <h1>Enter Emoji</h1>
@@ -52,8 +56,8 @@ export default function App() {
 
       <section className="section-two">
         <div className="container">
-            <h2> {emoji} </h2> 
-            <h3> {message} </h3> 
+            <h1> {emoji} </h1> 
+            <h2> {message} </h2> 
         </div>
       </section>
 
